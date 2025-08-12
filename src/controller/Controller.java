@@ -4,7 +4,7 @@ import java.sql.PreparedStatement; // import for prepared statements ((to prepar
 import java.sql.ResultSet; // import for result sets ((to get the result of the equation ))
 import java.sql.SQLException; // import for SQL exceptions
 import java.sql.Time; // import for SQL Time
-import java.util.ArrayList; // import for ArrayList
+import java.util.ArrayList; 
 import java.util.List; // import for List
 import java.util.Random; // import for Random ID generation
 import java.util.logging.Level; // import for logging levels((Both of these metohd is used to clarifie the error in details EX:Date,time))
