@@ -1,0 +1,18 @@
+# Java / builds
+*.class
+*.log
+dist/
+build/
+out/
+
+# NetBeans
+nbproject/private/
+nb-configuration.xml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets (don’t commit real passwords)
+config.properties
+
