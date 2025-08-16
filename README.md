@@ -12,9 +12,16 @@ Java desktop app to manage flights, passengers, and bookings using **Swing**, **
 Java · Swing · MVC · JDBC · MySQL · NetBeans · Ant
 
 ## Getting started
-1) **Requirements:** JDK 17+ (or your JDK), MySQL Server, NetBeans (Ant project).
+## Getting started
+
+1) **Requirements**
+   - **JDK 21+**
+   - **MySQL 8.x Server**
+   - **NetBeans** (Ant project)
+   - **MySQL Connector/J** (add the JAR to Project Properties → Libraries)
+
 2) **Database**
+   Create the database (you can change the name if you like):
    ```bash
-   mysql -u root -p < db/schema.sql
-   # optional demo data:
-   mysql -u root -p < db/sample_data.sql
+   mysql -u root -p -e "CREATE DATABASE IF NOT EXISTS airline_management_system DEFAULT CHARACTER SET utf8mb4"
+
